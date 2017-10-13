@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    
+    android:orientation="vertical" >
+    <AbsoluteLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+   <Button android:id="@+id/btn3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="gone"
+        />
+   <ImageView
+        android:id="@+id/float_id"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_float_pause"/>
+    <ImageView
+        android:id="@+id/float_home_id"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_x="30dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_float_home" />
+    <ImageView
+        android:id="@+id/float_menu_id"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_x="60dp"
+        android:layout_y="55dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_float_menu" />
+   <ImageView
+        android:id="@+id/float_back_id"
+        android:layout_width="60dp"
+        android:layout_height="60dp"  
+        android:layout_y="55dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_float_back" />
+
+    </AbsoluteLayout>
+   
+    
+</LinearLayout>
