@@ -489,7 +489,6 @@ public class FxService extends Service implements OnTouchListener, OnClickListen
                 break;
             default:
                 break;
-
         }
         return false;
     }
